@@ -1,7 +1,7 @@
 pipeline:
   backend:
-    image: golang
+    image: docker
     commands:
-      - go get
-      - go build
-      - go test
+      - docker run --rm hello-world
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
