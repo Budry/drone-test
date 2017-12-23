@@ -3,4 +3,3 @@ pipeline:
     image: docker
     commands:
       - docker run --rm hello-world
-    privileged: true
