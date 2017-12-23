@@ -1,3 +1,4 @@
 phases:
   deploy:
     - echo "hello"
+    - echo "test"
