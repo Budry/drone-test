@@ -1,8 +1,0 @@
-pipeline:
-  backend:
-    image: docker
-    commands:
-      - docker run --rm hello-world
-    volumes:
-      - /var/run/docker.sock:/var/run/docker.sock
-      
