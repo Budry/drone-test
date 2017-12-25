@@ -1,3 +1,0 @@
-phases:
-  deploy:
-    - echo "version 1"
