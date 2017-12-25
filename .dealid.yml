@@ -1,0 +1,11 @@
+builder:
+  image: alpine
+  source_dir: /tmp
+
+pipeline:
+  scripts:
+    - echo "Work"
+  on_error:
+    - echo "Error"
+  on_success:
+    - echo "OK"
