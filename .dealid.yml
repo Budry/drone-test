@@ -2,9 +2,5 @@ image: alpine
 source_dir: /tmp
 tasks:
   build_name:
-    scripts:
+    commands:
       - echo "Work"
-    on_error:
-      - echo "Error"
-    on_success:
-      - echo "OK"
