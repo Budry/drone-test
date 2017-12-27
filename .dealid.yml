@@ -4,3 +4,6 @@ tasks:
   build_name:
     commands:
       - echo "Work"
+  build_for_fail:
+    commands:
+      - exit 1
