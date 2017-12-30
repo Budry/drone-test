@@ -3,7 +3,7 @@ source_dir: /tmp
 tasks:
   build_name:
     commands:
-      - sleep 30
+      - sleep 1
       - echo "Work"
   build_for_fail:
     commands:
